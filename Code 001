@@ -1,25 +1,36 @@
-//Fred Kitonga
-// ENE211-0008/2020
-
+//Fred Kitonga (ENE211-0008/2020), Anthony Karwe (ENE211-0287/2020)
 
 
 #include <iostream>
 #include <cmath>
 using namespace std;
-int main ()
+
+int main()
 {
- int num1, num2, result;
- char op;
- cout<<"enter the first number:";
- cin>>num1;
- cout<<"enter the second number:";
- cin>>num2;
- cout<<"enter the operator:";
- cin>>op;
- if(op=='+'){
-    result= num1+ num2;
- } else if(op=='-'){
- result= num1- num2;
- }cout<<result;
- return 0;
- }
+    double num1, num2, result;
+    char op;
+    
+    cout << "Enter the first number: ";
+    cin >> num1;
+    cout << "Enter the second number: ";
+    cin >> num2;
+    cout << "Enter the operator (+, -): ";
+    cin >> op;
+    
+    switch (op)
+    {
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+        default:
+            cout << "Invalid operator!\n";
+            return 0;
+    }
+    
+    cout << "Result: " << result << endl;
+    
+    return 0;
+}
