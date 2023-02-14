@@ -19,8 +19,7 @@ Contributing
 Please feel free to contribute to this project by submitting a pull request with your changes.
 
 Authors
-Anto
-Festus
-Thomas
-Erick
-Fred
+Antony Karwe 
+Festus Lumara ENE211-0288/2021
+Thomas Mwenda ENE211-0010/2020
+Fredrick Kitonga ENE211-0008/2020
